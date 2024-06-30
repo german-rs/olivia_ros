@@ -2,6 +2,7 @@
     Nombre estudiante: Germán A. Riveros Sepúlveda.
     Generación: 14.
     Jornada: Vespertina.   
+    Desafío: Olivia Ros.
 -->
 
 <!DOCTYPE html>
@@ -13,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon. -->
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/ico.png" type="image/x-icon">
 
     <!-- Etiquetas meta -->
     <meta name="author" content="Germán Riveros S.">
@@ -82,9 +83,107 @@
         </div>
     </header>
     <!-- Sección de héroe. -->
-     
 
-    <!-- Sección contactame. -->
+
+    <!-- Sección acerca de. -->
+    <section class="text-center" id="acerca_de">
+        <h2 class="fw-bold mt-5 p-2 display-4">Acerca de mí</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <p class="p-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.
+                    Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 p-2">
+                    <!-- Pendiente fx-5. -->
+                    <i class="fa-solid fa-camera fx-5"></i>
+                    <h4>Fotógrafa de comida</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus
+                        blandit dapibus.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-2">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h4>Crítica culinaria</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus
+                        blandit dapibus.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-2">
+                    <i class="fa-regular fa-map"></i>
+                    <h4>Bloggera de viajes</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus
+                        blandit dapibus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Sección acerca de. -->
+
+
+    <!-- Sección mis trabajos. -->
+    <section class="text-center" id="mis_trabajos">
+        <h2 class="text-light p-3 mt-2">Mis trabajos</h2>
+        <div class="container mb-3">
+            <div class="row">
+
+                <!-- Tarjeta 1. -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center my-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/card-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Asado en la Patagonia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                            <div class="d-flex justify-content-start">
+                                <a href="#" class="btn btn-outline-info">Ver más</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2. -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center my-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/card-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Papas del fin del mundo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                            <div class="d-flex justify-content-start">
+                                <a href="#" class="btn btn-outline-info">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3. -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center my-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/card-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Salmones de Alaska</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                            <div class="d-flex justify-content-start">
+                                <a href="#" class="btn btn-outline-info">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin sección mis trabajos. -->
+
+    <!-- Sección contáctame. -->
     <section class="m-5 p-3">
         <h2 class="fw-bold text-center">Contáctame</h2>
         <p class="text-center">
@@ -131,6 +230,7 @@
         </p>
     </footer>
     <!-- Fin footer. -->
+
 
     <!-- bootstrap JS. -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
