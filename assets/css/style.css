@@ -1,3 +1,35 @@
+/* 
+    Nombre estudiante: Germán A. Riveros Sepúlveda.
+    Generación: 14.
+    Jornada: Vespertina.   
+    Desafío: Olivia Ros. 
+    
+*/
+
+/* Configuraciones generales. */
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+.texto_regular{
+    font-size: 16px;
+}
+/* Fin configuraciones generales. */
+
+
+/* Navbar. */
+.navbar-brand-custom {
+    margin-left: 30px;
+  }
+
+
+ /* Imagen sección de héroe.  */
 #hero_section{
     background-image: url("../img/bg-hero.jpg");
     background-repeat: no-repeat;
@@ -6,7 +38,12 @@
     
 }
 
+
 /* Sección acerca de. */
 #mis_trabajos{
     background: #17A2B8;
+}
+
+.sub_tit_acercade{
+    font-size: 20px;
 }
