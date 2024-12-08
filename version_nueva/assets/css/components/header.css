@@ -1,0 +1,49 @@
+.header{
+    padding: var(--size-base);
+}
+
+.header__content{
+    margin-top: var(--size-10xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: var(--size-base);
+    text-align: right;
+}
+
+.header__title{
+    color: var(--clr-slate100);
+    font-size: var(--size-4xl);
+    padding: var(--size-base);
+
+}
+
+.header__description{
+    color: var(--clr-slate100);
+    padding: var(--size-base);
+    width: 100%;
+    max-width: 70ch;
+}
+
+.header__buttons{
+    padding: var(--size-base);
+}
+
+.header__button{
+  padding: 1em 2em;
+  border: 2px solid var(--clr-slate800);
+  color: var(--clr-slate800);
+  background-color: var(--clr-slate200);
+  font-family: "IBM Plex sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  box-shadow: -3px 5px var(--clr-slate800);
+  transition: all 0.7s ease;
+}
+
+.header__button:hover {
+    background-color: var(--clr-slate800);
+    color: var(--clr-slate50);
+}   
