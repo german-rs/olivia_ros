@@ -15,6 +15,7 @@ body *{
 
 body{
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden; 
 }
 
 .texto_regular{
@@ -47,3 +48,4 @@ body{
 .sub_tit_acercade{
     font-size: 20px;
 }
+
